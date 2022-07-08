@@ -1,0 +1,137 @@
+/* Header--------------------------- */
+:root {
+    --cyan7: hsl(196, 100%, 3%);
+    --cyan6: #001a24;
+    --cyan5: #002634;
+    --cyan4: #003E4E;
+    --cyan3: #005969;
+    --cyan2: #0D7485;
+    --cyan1: #3A91A2;
+    --cyan0: hsl(190, 47%, 70%);
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--cyan7);
+    font-style: 'Poppins', sans-serif;
+}
+
+.ul--tag {
+    list-style-type: none;
+    background: var(--cyan5);
+    padding: 1em;
+    margin-top: 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.li--tag a{
+    text-decoration: none;
+    color: var(--cyan1);
+    font-family: 'Poppins',sans-serif;
+}
+.li--tag a:hover {
+    text-decoration: overline;
+}
+
+/* Header--------------------------- */
+
+.FC-main-contain {
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    padding-top: 4em;
+    padding-bottom: 4em;
+    background-color: #001a24;
+}
+
+.FC-sub-contain {
+    padding: 0;
+    margin: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.FC-sub-contain a {
+    text-decoration: none;
+    color: aliceblue;
+    transition: ease-in 0.3s;
+}
+
+
+.card-question {
+    border-color: rgb(123, 16, 16);
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 5px;
+    padding: 0.5em;
+}
+
+.card-answer {
+    border-color: green;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 5px;
+    padding: 0.5em;
+}
+.cards-set-number {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.h4finish {
+    color: aliceblue;
+    text-align: center;
+}
+/* container */
+
+
+#shuffle-button {
+    color: green;
+}
+#shuffle-button:hover {
+    color: hsl(120, 100%, 55%);
+}
+
+.Next-Card-in {
+    text-align: center;
+    color: aliceblue;
+}
+.form-big-pp-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.btn-info {
+    color: white;
+    border-color: var(--cyan7);
+    background-color: #003E4E;
+}
+.btn-info:hover {
+    color: white;
+    border-color: var(--cyan7);
+    background-color: #003E4E;
+}
+
+/* Buttons */
+.button-container {
+    display: flex;
+    justify-content: space-between;
+}
+.button-container button {
+    padding-left: 3em;
+    padding-right: 3em;
+}
+
+/* Buttons */
+
+/* functional css */
+.dp-none {
+    display: none;
+}
+/* functional css */

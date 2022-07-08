@@ -1,0 +1,64 @@
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    color: aliceblue;
+}
+.container-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    text-align: center;
+}
+
+.container-sub {
+    background-color: hsl(0, 0%, 10%);
+    padding: 1em;
+    margin: 1em;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 2em;
+}
+
+.container-game {
+    background-color: rgb(0, 0, 0);
+    padding: 1em;
+}
+
+#RandomChars{
+    font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
+}
+.progress {
+    background-color: aliceblue;
+    height:50px;
+}
+
+.progress-bar {
+    background-color: aqua;
+    width: 0%;
+}
+
+.user--input{
+    background-color: rgb(3, 37, 37);
+    border: none;
+    color: white;
+    padding: 1em;
+    min-width: 235px;
+}
+
+.dp-none-this {
+    display: none;
+}
+.opacity-none-this {
+    opacity: 0;
+    pointer-events: none;
+}
+
+
+/* --------------------- */
+
+

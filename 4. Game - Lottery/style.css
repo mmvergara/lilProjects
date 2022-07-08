@@ -1,0 +1,72 @@
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    color: aliceblue;
+}
+.container-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    text-align: center;
+    column-gap: 2em;
+}
+.container-sub {
+    background-color: hsl(0, 0%, 10%);
+    padding: 1em;
+    margin: 1em;
+    text-align: center;
+}
+.slots-container-sub {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 1em;
+    row-gap: 1em;
+    flex-wrap: wrap;
+}
+.container-game {
+    background-color: rgb(0, 0, 0);
+    padding: 1em;
+}
+.title-game{
+    text-align: center;
+}
+#howtoplay {
+    color: white;
+    text-decoration: overline;
+}
+.dp-none-this {
+    display: none;
+}
+.opacity-none-this {
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.1s;
+}
+.setbet-container {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+#setbet-input {
+    max-width: 180px;
+}
+
+@media screen and (max-width:735px){
+    img {
+        width: 100px;
+    }
+}
+@media screen and (max-width:352px){
+    img {
+        width: 60px;
+    }
+}
+/* --------------------- */
+
+
+
+
+
