@@ -1,0 +1,56 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    color:white;
+}
+
+body{
+    height: 100vh;
+    width:100vw;
+}
+
+
+.mainContainer{
+    padding: 1em;
+    background-color: rgba(0, 0, 0, 0.373);
+    transform: translateY(50px);
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column
+}
+
+.mainForm{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-bottom: 2em;
+    
+}
+
+
+.todolistText{
+    font-size:1.5rem;
+}
+.todolistX{
+    font-size: 2rem;
+    color: red;
+    margin:0em;
+}
+
+.todolistText{
+    margin:0em;
+}
+
+
+
+
+
+
+
+
+
+
+
