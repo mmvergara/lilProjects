@@ -104,7 +104,7 @@ h6 {
 
 
             <div class="time-input-container ">
-                <h6>Input Minutes and Seconds of Playtime <br> Max 60 minutes <br>Min 10sec Max 60sec </h6>
+                <h6>Select Minutes and Seconds of Playtime <br> Max 60 minutes <br>Min 10sec Max 60sec </h6>
                 <div class="time-input">
                     <div>
                         <label for="input-minutes"> Minutes </label>
@@ -115,7 +115,7 @@ h6 {
                         <input type="number"min="5" max="60" id="seconds-input" placeholder="min10sec.max60sec." class="form-control" value="10">
                     </div>
                 </div>
-
+                
                     <p class="warning-maximum display-none-this"> 
                         Invalid: Read the freaking maximum input 
                     </p>
@@ -202,11 +202,6 @@ h6 {
         let secDisplay = 0;
         let minDisplay = 0;
         var startimer;
-        // var audio = new Audio('uncomment this and a a link to give sounds to the popping')
-        
-    $('.btn').click(function(){
-        audio.play();
-    })
         $('.resetbutton').click(function(){
             resetbutton();
         });
@@ -273,13 +268,12 @@ h6 {
             $('#score').html('Start Clicking!!!');
             $('#score').addClass('display-none-this');
             $('.btn-group-lg').addClass('display-none-this');
-            $('.btn-group-sm').addClass('display-none-this');
             $('.resetbutton').addClass('display-none-this');
             $('.startbutton').addClass('display-none-this')
             $('#timeremaining').addClass('display-none-this')
             $('#timeremaining-text').addClass('display-none-this')
             $('#gamename').removeClass('display-none-this');
-            $('#gamename').html('<del>Blow Job!!!</del> Great Job!!!')
+            $('#gamename').html('Great Job!!!')
             $('.startbuttonagain').removeClass('display-none-this') 
             $('.warning-maximum').addClass('display-none-this');
             let lastscore = score;
