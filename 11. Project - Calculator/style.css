@@ -1,0 +1,91 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    margin:0;
+    padding:0;
+    background-color:rgb(5, 44, 58)
+}
+
+.containerMain {
+    background-color:rgb(6, 93, 131);
+    padding:1em;
+    margin:4em;
+    max-width: 400px;
+    display: grid;  
+    grid-auto-columns: 1fr; 
+    grid-auto-rows: 1fr; 
+    grid-template-columns: 1fr 1fr 1fr 1fr; 
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr; 
+    gap: 1em 1em; 
+    grid-template-areas: 
+      "Calculation-Area Calculation-Area Calculation-Area Calculation-Area"
+      "All-Clear All-Clear DEL Division"
+      "one two three Multiplication"
+      "four five six Addition"
+      "seven eight nine Subtraction"
+      "dot zero evalEquals evalEquals"; 
+  }
+.centerer{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+  .Calculation-Area { grid-area: Calculation-Area; }
+  .All-Clear { grid-area: All-Clear; }
+  .DEL { grid-area: DEL; }
+  .Division { grid-area: Division; }
+  .Multiplication { grid-area: Multiplication; }
+  .Addition { grid-area: Addition; }
+  .Subtraction { grid-area: Subtraction; }
+  .evalEquals { grid-area: evalEquals; }
+  .zero { grid-area: zero; }
+  .dot { grid-area: dot; }
+  .one { grid-area: one; }
+  .two { grid-area: two; }
+  .three { grid-area: three; }
+  .four { grid-area: four; }
+  .five { grid-area: five; }
+  .six { grid-area: six; }
+  .seven { grid-area: seven; }
+  .eight { grid-area: eight; }
+  .nine { grid-area: nine; }
+
+
+  .calcButtons{
+    background-color: rgb(0, 157, 205);
+    padding:1em;
+    color: rgb(0, 0, 0);
+    border-color: aliceblue;
+    border-width: 1px;
+    border-style: solid;
+    font-family: 'Poppins',sans-serif;
+    font-size:1.3rem;
+    font-weight: bold;
+  }
+input{
+    background-color: rgb(0, 157, 205);
+    color: rgb(0, 0, 0);
+    border-color: aliceblue;
+    border-width: 1px;
+    border-style: solid;
+    padding-left:1em;
+    font-size: 2rem;
+}
+
+  @media screen and (max-width:400px){
+    .containerMain{
+        margin:1em;
+    }
+    .calcButtons{
+      font-size:1rem;
+    }
+  }
+
+
+.calcButtons:hover{
+  color: aqua;
+}

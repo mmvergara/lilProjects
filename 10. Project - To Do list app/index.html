@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List App MMV</title>
+    
+    <meta name="google-site-verification" content="CmqzMavXcGQMQ-HF0Ziq3EJgllOtBIz5rSigeTOtimA" />
+    <script src="uniqid.min.js"></script>
+    <script defer src="index.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+</head>
+<body>
+    
+    <div class="mainContainer">
+        <h1>To Do List App</h1>
+
+        <form action="submit" class="mainForm">
+            <button type="submit" class="btn btn-success SubmitAdd">Add</button>
+            <input type="text" class="form-control inputText">
+        </form>
+
+        <div class="todolistmainContainer">
+            
+            <!-- <div class="todolistContainer" data-id="59">
+                <p class="todolistText">
+                    1. Make Sandwiches
+                    <a href="#/" class="todolistX">X</a>
+                </p>
+            </div> -->
+
+        </div>
+    </div>
+
+
+
+</body>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.birds.min.js"></script>
+<script>
+    VANTA.BIRDS({
+      el: "body",
+      mouseControls: true,
+      touchControls: true,
+      gyroControls: false,
+      minHeight: 200.00,
+      minWidth: 200.00,
+      scale: 1.00,
+      scaleMobile: 1.00,
+      color1: 0xb3ff,
+      birdSize: 0.80,
+      quantity: 3.00
+    })
+    </script>
+</html>
