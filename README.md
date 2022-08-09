@@ -2,7 +2,8 @@
 lilProjects by Vergara, Mark Matthew
 These are little or sometimes big Projects and Games I made to practice different programming languages. this is more of a journey in my career as a developer.
 
-[I'm an inline-style link](https://github.com/mmvergara/lilProjects#001-game---clicking-game)
+[001 Game - Clicking Game](https://github.com/mmvergara/lilProjects#001-game---clicking-game)
+[001 Game - Clicking Game](https://github.com/mmvergara/lilProjects#002-game---flash-cards)
 
 
 
@@ -15,7 +16,7 @@ These are little or sometimes big Projects and Games I made to practice differen
 - Jquery and Spaghetti code.
 - First ever game I made
 
-## 002 Game - Clicking Game
+## 002 Game - Flash Cards
 - needs xampp to run
 - simple flashcard app made using PHP
 
