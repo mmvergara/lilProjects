@@ -7,15 +7,15 @@ These are little or sometimes big Projects and Games I made to practice differen
 [002 Game - Flash Cards](https://github.com/mmvergara/lilProjects#002-game---flash-cards) <br />
 [003 Game - The Bomb is Ticking](https://github.com/mmvergara/lilProjects#003-game---the-bomb-is-ticking) <br />
 [004 Game - Lotter (SheeshSlot)](https://github.com/mmvergara/lilProjects#004-game---lottery-aka-sheeshslot) <br />
-[005 Project - Randomizer](https://github.com/mmvergara/lilProjects#005-project---randomizer)
-[006 Game - Guessing Game](https://github.com/mmvergara/lilProjects#006-game---guessing-game) 
-[007 Game - PigGame](https://github.com/mmvergara/lilProjects#007-game---piggame)
-[008 Project - Bankist](https://github.com/mmvergara/lilProjects#008-project---bankist)
-[009 Project - Mapty](https://github.com/mmvergara/lilProjects#009-project---mapty)
-[010 Project - To Do List App](https://github.com/mmvergara/lilProjects#010-project---to-do-list-app)
-[011 Project - Calculator](https://github.com/mmvergara/lilProjects#011-project---calculator)
-[012 Project - Whats The Capital](https://github.com/mmvergara/lilProjects#012-project---whats-the-capital)
-[013 Game - Tic Tac Toe --ONGOING](https://github.com/mmvergara/lilProjects#013-game---tic-tac-toe)
+[005 Project - Randomizer](https://github.com/mmvergara/lilProjects#005-project---randomizer) <br />
+[006 Game - Guessing Game](https://github.com/mmvergara/lilProjects#006-game---guessing-game) <br />
+[007 Game - PigGame](https://github.com/mmvergara/lilProjects#007-game---piggame) <br />
+[008 Project - Bankist](https://github.com/mmvergara/lilProjects#008-project---bankist) <br />
+[009 Project - Mapty](https://github.com/mmvergara/lilProjects#009-project---mapty) <br />
+[010 Project - To Do List App](https://github.com/mmvergara/lilProjects#010-project---to-do-list-app) <br />
+[011 Project - Calculator](https://github.com/mmvergara/lilProjects#011-project---calculator) <br />
+[012 Project - Whats The Capital](https://github.com/mmvergara/lilProjects#012-project---whats-the-capital) <br />
+[013 Game - Tic Tac Toe --ONGOING](https://github.com/mmvergara/lilProjects#013-game---tic-tac-toe) <br />
 
 
 ## 013 Game - Tic Tac Toe
