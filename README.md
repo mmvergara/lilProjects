@@ -16,11 +16,19 @@ These are little or sometimes big Projects and Games I made to practice differen
 [011 Project - Calculator](https://github.com/mmvergara/lilProjects#011-project---calculator) <br />
 [012 Project - Whats The Capital](https://github.com/mmvergara/lilProjects#012-project---whats-the-capital) <br />
 [013 Game - Tic Tac Toe --ONGOING](https://github.com/mmvergara/lilProjects#013-game---tic-tac-toe) <br />
+[014 Project - Tailwind Practice]()
 
+## 015
+
+## 014 Project - Tailwind Practice
+- Just a lil bad website i used to experiment tailwind css
+- Got to learn pretty much on How tailwind works
+- https://nerdcave.com/tailwind-cheat-sheet <-- Good Resource
 
 ## 013 Game - Tic Tac Toe
 - OOP Practice 
 - ONGOING
+
 
 ## 012 Project - Whats The Capital
 - First time working with async await
