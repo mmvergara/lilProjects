@@ -7,7 +7,7 @@ function App() {
     <div className="App">
       <Navbar/>
 
-      <main className='m-4 bg-white rounded-full p-4'>
+      <main className='m-4 bg-white rounded-3xl p-4'>
         <LayoutPrac/>
       </main>
 
