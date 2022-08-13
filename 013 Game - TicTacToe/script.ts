@@ -157,6 +157,7 @@ class TicTacToe {
 
     private getLocalStorage () {
         const retrieved = JSON.parse(localStorage.getItem('gameStatus')!)
+        if(!retrieved)return
         const {pX,pO,cB,cP} = retrieved
         if(!retrieved) return
             this.playerXstatus = pX
