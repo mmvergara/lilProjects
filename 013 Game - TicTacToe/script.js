@@ -51,10 +51,10 @@ class TicTacToe {
         this.winnertText = document.querySelector('.Winner');
         this.getLocalStorage();
         this.reRenderXnO();
+        this.winnertText.textContent = `${this.CurrentPlayer}'s Turn`;
         this.tileContainer.addEventListener('click', this.clickHandler);
     }
     clickHandler(e) {
-        console.log(this.CurrentPlayer);
         const targetBox = e.target;
         const tileID = Number(targetBox.getAttribute('data-tileid'));
         // guard clause for clicking the same
@@ -67,14 +67,14 @@ class TicTacToe {
         // update playersArray - reverse current player 
         if (this.CurrentPlayer == 'O') {
             this.playerOstatus.push(tileID);
-            console.log('O status -' + this.playerOstatus);
+            // console.log('O status -'+this.playerOstatus)
             targetBox.style.color = '#ff0000ce';
             // Check if O won
             this.CurrentPlayer = 'X';
         }
         else {
             this.playerXstatus.push(Number(tileID));
-            console.log('X status -' + this.playerOstatus);
+            // console.log('X status -'+this.playerOstatus)
             targetBox.style.color = '#0091ffce';
             // Check if O won
             this.CurrentPlayer = 'O';
@@ -86,21 +86,25 @@ class TicTacToe {
     checkStatus() {
         if (this.winningConditions.some(y => y.every(x => this.playerOstatus.includes(x)))) {
             // player O won
-            console.log('player O won');
+            // console.log('player O won')
             this.winnertText.innerHTML = 'Player O won!!! <br/> Game reset!...';
             this.resetGame();
+            return;
         }
         if (this.winningConditions.some(y => y.every(x => this.playerXstatus.includes(x)))) {
             // player X won
-            console.log('player X won');
+            // console.log('player X won')
             this.winnertText.innerHTML = 'Player X won!!! <br/> Game reset!...';
             this.resetGame();
+            return;
         }
         if ((this.playerOstatus.length + this.playerXstatus.length) == 9) {
-            console.log('Draw');
+            // console.log('Draw')
             this.winnertText.innerHTML = 'Draw!!! <br/> Game reset!...';
             this.resetGame();
+            return;
         }
+        this.winnertText.textContent = `${this.CurrentPlayer}'s Turn`;
     }
     resetGame() {
         this.playerXstatus = [];
@@ -113,7 +117,8 @@ class TicTacToe {
         });
         setTimeout(() => {
             this.winnertText.innerHTML = '';
-        }, 1000);
+            this.winnertText.textContent = `${this.CurrentPlayer}'s Turn`;
+        }, 2000);
     }
     setLocalStorage() {
         const gameStatus = {
@@ -137,11 +142,15 @@ class TicTacToe {
     reRenderXnO() {
         this.playerOstatus.forEach((x) => {
             const tile = document.querySelector(`[data-tileid="${x}"]`);
+            if (!tile)
+                return;
             tile.textContent = 'O';
             tile.style.color = '#ff0000ce';
         });
         this.playerXstatus.forEach((x) => {
             const tile = document.querySelector(`[data-tileid="${x}"]`);
+            if (!tile)
+                return;
             tile.textContent = 'X';
             tile.style.color = '#0091ffce';
         });
