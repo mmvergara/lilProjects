@@ -80,37 +80,32 @@ h2{
 }
 
 .Winner {
+    opacity: 0;
     text-align: center;
-    animation-name: Winnerr;
-
-    animation-duration: 2.5s;
-    animation-fill-mode: forwards;
-}
-@keyframes Winnerr {
-    0%{
-        opacity: 0;
-    }
-
-    100%{
-        opacity: 1;
-    }
-}
-
-.TIC {
-    display: inline-block;
-    animation-name: comeRight;
-    animation-duration: 0.5s;
+    animation-name: spinnerText;
+    animation-delay: 1s;
+    animation-duration: 1s;
     animation-fill-mode: forwards;
     color: hsl(74, 32%, 52%);
 
 }
 
+.TIC {
+    opacity: 0;
+    display: inline-block;
+    animation-name: spinnerText;
+    animation-delay: 1.6s;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    color: hsl(74, 32%, 52%);
+}
+
 .TAC {
     opacity: 0;
     display: inline-block;
-    animation-name: comeTop;
-    animation-delay: 0.5s;
-    animation-duration: 0.5s;
+    animation-name: spinnerText;
+    animation-delay: 2s;
+    animation-duration: 1s;
     animation-fill-mode: forwards;
     color: hsl(74, 32%, 52%);
 
@@ -118,44 +113,55 @@ h2{
 .TOE {
     opacity: 0;
     display: inline-block;
-    animation-name: comeLeft;
-    animation-delay: 1s;
-    animation-duration: 0.5s;
+    animation-name: spinnerText;
+    animation-delay: 2.4s;
+    animation-duration: 1s;
     animation-fill-mode: forwards;
     color: hsl(74, 32%, 52%);
 
 }
 .Credits {
     opacity: 0;
-    animation-name: comeBot;
+    animation-name: spinnerText;
+    animation-delay: 1s;
     animation-duration: 1s;
     animation-fill-mode: forwards;
 }
-@keyframes comeBot {
-    0%{
-        opacity: 0;
-        transform: translateY(900px);
-    }
-
-    100%{
-        opacity: 1;
-        transform: translate(0px);
-    }
-}
-
-
 
 @keyframes spin {
     0%{
         transform: rotate(360deg);
         opacity: 0;
     }
-
+    0%{
+        padding: 1.3em;
+    }
     100%{
         transform: rotate(0deg);
         opacity: 1;
     }
 }
+
+
+@keyframes spinnerText {
+    0%{
+        transform: rotateX(360deg);
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 1;
+        transform: rotateX(0deg);
+        background-color: #283618;
+        padding: 10px;
+        padding-left: 12px;
+        border-radius: 20px;
+    }
+}
+
+
+
+
 
 @keyframes comeTop {
     0%{
@@ -172,7 +178,6 @@ h2{
         border-radius: 20px;
     }
 }
-
 @keyframes comeRight {
     0%{
         opacity: 0;
@@ -188,7 +193,6 @@ h2{
         border-radius: 20px;
     }
 }
-
 @keyframes comeLeft {
     0%{
         opacity: 0;
@@ -202,5 +206,16 @@ h2{
         padding: 10px;
         padding-left: 12px;
         border-radius: 20px;
+    }
+}
+@keyframes comeBot {
+    0%{
+        opacity: 0;
+        transform: translateY(900px);
+    }
+
+    100%{
+        opacity: 1;
+        transform: translate(0px);
     }
 }
