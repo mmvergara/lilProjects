@@ -12,6 +12,7 @@ body{
 }
 h1{
     margin-top: 50px;
+color: #ff0000ce;
 }
 h2{
     margin-top: 20px;
@@ -35,6 +36,7 @@ h2{
       "tile7 tile8 tile9"; 
       min-width: 320px;
   }
+  
 .tile1 { grid-area: tile1; }
 .tile2 { grid-area: tile2; }
 .tile3 { grid-area: tile3; }
@@ -56,3 +58,7 @@ h2{
     color:white;
 
 } 
+
+.Winner {
+    text-align: center;
+}
