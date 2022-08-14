@@ -19,6 +19,9 @@ These are little or sometimes big Projects and Games I made to practice differen
 [014 Project - Tailwind Practice](https://github.com/mmvergara/lilProjects#014-project---tailwind-practice)
 
 
+## 015 Project - Tailwind Practice v2
+- Tailwind Practice
+- [Fireship Tailwind css video](https://www.youtube.com/watch?v=pfaSUYaSgRo)
 
 ## 014 Project - Tailwind Practice
 - Just a little website i used to experiment tailwind css
