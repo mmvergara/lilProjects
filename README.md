@@ -76,7 +76,7 @@ These are little or sometimes big Projects and Games I made to practice differen
 
 - ## VERSION 2 has its own repository ( I made version 2 for a school requirement)
 - https://github.com/mmvergara/TheBombisTicking
-- Live in https
+- Live in https://thebomb-isticking.netlify.app/
 
 ## 002 Game - Flash Cards
 - needs xampp to run
