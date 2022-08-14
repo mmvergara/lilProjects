@@ -80,7 +80,7 @@ These are little or sometimes big Projects and Games I made to practice differen
 
 ## 002 Game - Flash Cards
 - needs xampp to run
-- simple flashcard app made using PHP
+- simple flashcard app made using PHP and mySql
 
 ## 001 Game - Clicking Game
 - Live in https://clicking-game-mmv.netlify.app/
