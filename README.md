@@ -15,9 +15,9 @@ These are little or sometimes big Projects and Games I made to practice differen
 [010 Project - To Do List App](https://github.com/mmvergara/lilProjects#010-project---to-do-list-app) <br />
 [011 Project - Calculator](https://github.com/mmvergara/lilProjects#011-project---calculator) <br />
 [012 Project - Whats The Capital](https://github.com/mmvergara/lilProjects#012-project---whats-the-capital) <br />
-[013 Game - Tic Tac Toe --ONGOING](https://github.com/mmvergara/lilProjects#013-game---tic-tac-toe) <br />
+[013 Game - Tic Tac Toe](https://github.com/mmvergara/lilProjects#013-game---tic-tac-toe) <br />
 [014 Project - Tailwind Practice](https://github.com/mmvergara/lilProjects#014-project---tailwind-practice)
-
+[015 Project - Tailwind Practice v2](https://github.com/mmvergara/lilProjects#015-project---tailwind-practice-v2)
 
 ## 015 Project - Tailwind Practice v2
 - Tailwind Practice
