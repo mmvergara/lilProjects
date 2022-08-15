@@ -18,6 +18,11 @@ These are little or sometimes big Projects and Games I made to practice differen
 [013 Game - Tic Tac Toe](https://github.com/mmvergara/lilProjects#013-game---tic-tac-toe) <br />
 [014 Project - Tailwind Practice](https://github.com/mmvergara/lilProjects#014-project---tailwind-practice)
 [015 Project - Tailwind Practice v2](https://github.com/mmvergara/lilProjects#015-project---tailwind-practice-v2)
+[016 Game - TIC TAC]
+
+## 016 Game - Tic Tac Toe in Python
+- I had fun making this
+- Python Practice, OOP and etc
 
 ## 015 Project - Tailwind Practice v2
 - Tailwind Practice
@@ -31,7 +36,6 @@ These are little or sometimes big Projects and Games I made to practice differen
 ## 013 Game - Tic Tac Toe
 - OOP,Local Storage and Css Animations Practice 
 - Live in https://mmv-tictactoe.netlify.app/
-
 
 ## 012 Project - Whats The Capital
 - First time working with async await
