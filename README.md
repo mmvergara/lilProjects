@@ -39,7 +39,7 @@ These are little or sometimes big Projects and Games I made to practice differen
 - https://nerdcave.com/tailwind-cheat-sheet <-- Used 
 
 ## 013 Game - Tic Tac Toe
-- OOP,Local Storage and Css Animations Practice 
+- OOP,Local Storage, Typescript and Css Animations Practice 
 - Live in https://mmv-tictactoe.netlify.app/
 
 ## 012 Project - Whats The Capital
