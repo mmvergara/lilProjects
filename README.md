@@ -19,6 +19,11 @@ These are little or sometimes big Projects and Games I made to practice differen
 [014 Project - Tailwind Practice](https://github.com/mmvergara/lilProjects#014-project---tailwind-practice)<br />
 [015 Project - Tailwind Practice v2](https://github.com/mmvergara/lilProjects#015-project---tailwind-practice-v2)<br />
 [016 Game - Tic Tac Toe in Python](https://github.com/mmvergara/lilProjects#016-game---tic-tac-toe-in-python)<br />
+[017 Project - GWA Calculator]()
+
+## 017 Project - Gwa Calculator
+- Exactly as it sounds
+- React Typescript Practice
 
 ## 016 Game - Tic Tac Toe in Python
 - First Game i made in python, OOP practice
