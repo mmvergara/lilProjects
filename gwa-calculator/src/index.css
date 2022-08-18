@@ -7,5 +7,6 @@ body{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: rgba(5, 113, 32, 0.476);
+  background-color: hsl(210, 11%, 11%);
+  color:white;
 }
