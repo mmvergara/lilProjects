@@ -35,9 +35,9 @@ const PsauGwaCalc:React.FC = () => {
 
 	return (
 		<div className='PsauGwaCalcContainer'>
-
-			<h1 className='text-bold text-3xl mb-4 mt-4'>Copy Paste The table inside your psau grades. DONT COPY THE FIRST ROW!!! </h1>
+			<h1 className='text-bold text-3xl mb-4 mt-4'><br /> Copy Paste The table inside your psau grades. DONT COPY THE FIRST ROW!!! </h1>
 			<div className="userInputs ">
+				<p>Disclaimer:This website is no associated in any way with any school</p>
 				<textarea onChange={(Event:React.ChangeEvent<HTMLTextAreaElement>,)=>{setUserInput(Event.target.value)}} className='form-control text-area__input' name=""></textarea>
 			</div>
 			<div className="summary-container font-bold border-cyan-500 border-solid border-3xl border-2 rounded-2xl text-white p-3 mt-4 mb-3">
