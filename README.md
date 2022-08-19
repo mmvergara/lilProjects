@@ -22,6 +22,9 @@ These are little or sometimes big Projects and Games I made to practice differen
 [017 Project - GWA Calculator]()
 [018 Project - React Namelister]()
 ## 018 Project - React Namelister
+- Something like a to-do list but with names age + remove functionality and modals
+- React Typescript Practice
+
 ## 017 Project - Gwa Calculator
 - Exactly as it sounds
 - React Typescript Practice
