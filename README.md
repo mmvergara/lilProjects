@@ -20,7 +20,7 @@ These are little or sometimes big Projects and Games I made to practice differen
 [015 Project - Tailwind Practice v2](https://github.com/mmvergara/lilProjects#015-project---tailwind-practice-v2)<br />
 [016 Game - Tic Tac Toe in Python](https://github.com/mmvergara/lilProjects#016-game---tic-tac-toe-in-python)<br />
 [017 Project - GWA Calculator]() <br />
-[018 Project - React Namelister]()
+[018 Project - React Namelister](https://github.com/mmvergara/lilProjects#018-project---react-namelister) <br />
 ## 018 Project - React Namelister
 - Something like a to-do list but with names age + remove functionality and modals
 - React Typescript Practice
