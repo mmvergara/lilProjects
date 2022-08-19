@@ -1,8 +1,8 @@
-# lilProjects
+# lilProjects 🌟 
 lilProjects by Vergara, Mark Matthew
-These are little or sometimes big Projects and Games I made to practice different programming languages. this is more of a journey in my career as a developer.
+These are little or sometimes big Projects and Games I made to practice different programming languages. this is more of a journey in my career as a developer 💻.
 
-## Table of Contents
+## Table of Contents 👨‍💻
 [001 Game - Clicking Game](https://github.com/mmvergara/lilProjects#001-game---clicking-game) <br />
 [002 Game - Flash Cards](https://github.com/mmvergara/lilProjects#002-game---flash-cards) <br />
 [003 Game - The Bomb is Ticking](https://github.com/mmvergara/lilProjects#003-game---the-bomb-is-ticking) <br />
