@@ -1,0 +1,21 @@
+.mainContainer{
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.458);
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    
+}
+
+.subContainer{
+    background-color: white;
+    padding: 1em;
+    min-width: 300px;
+    border-radius:6px;
+}
+.subContainer header {
+    text-align: center;
+}
