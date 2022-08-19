@@ -1,6 +1,6 @@
 # lilProjects 🌟 
 lilProjects by Vergara, Mark Matthew
-These are little or sometimes big Projects and Games I made to practice different programming languages. this is more of a journey in my career as a developer 💻.
+These are little or sometimes big'ish Projects and Games I made to practice different programming languages. this is more of a journey in my career as a developer 💻.
 
 ## Table of Contents 👨‍💻
 [001 Game - Clicking Game](https://github.com/mmvergara/lilProjects#001-game---clicking-game) <br />
