@@ -24,6 +24,7 @@ These are little or sometimes big'ish Projects and Games I made to practice diff
 ## 018 Project - React Namelister
 - Something like a to-do list but with names age + remove functionality and modals
 - React Typescript Practice
+- Tailwin CSS Practice
 
 ## 017 Project - Gwa Calculator
 - Exactly as it sounds
