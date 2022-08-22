@@ -40,19 +40,16 @@ const TestEmailRed:React.FC = () => {
 
     return (
       <div>
-        <div>Email is Valid? {formState.mailIsValid ? 'valid':'nope'}</div>
-        <div>PassWord is Valid? {formState.passIsValid ? 'valid':'nope'}</div>
-        <div>Form is submittable? {submittable ? 'valid' : 'nope'}</div>
+        <div className={` ${formState.mailIsValid ? 'text-green-200': 'text-red-600'} `}>Email is Valid? {formState.mailIsValid ? 'valid':'nope'}</div>
+        <div className={` ${formState.passIsValid ? 'text-green-200': 'text-red-600'} `}>PassWord is Valid? {formState.passIsValid ? 'valid':'nope'}</div>
+        <div className={` ${submittable ? 'text-green-200': 'text-red-600'} `}>Form is submittable? {submittable ? 'valid' : 'nope'}</div>
 
-        <input type="text" onChange={
+        <input type="text" placeholder='email' onChange={
           (e:React.ChangeEvent<HTMLInputElement>)=>{dispatchFormState({type:'email_change',val:e.target.value})}
-          }/>
-        <input type="password" onChange={
+          }/> <br />
+        <input type="password" placeholder='password' onChange={
           (e:React.ChangeEvent<HTMLInputElement>)=>{dispatchFormState({type:'password_change',val:e.target.value})}
-          }/>
-
-        <button>Submit</button>
-        <button>reset all</button>
+          }/> <br />
       </div>
     )
 }
