@@ -1,24 +1,20 @@
 
-import { createContext, useState } from 'react';
+import { useState } from 'react';
 import './App.css';
-import ButtonReducer from './components/ButtonReducer';
-import FormValidator from './components/FormValidator';
-import UContextPrac from './components/UContextPrac';
+import CountContext from './components/context/CountContext'
+import Uctx from './components/Uctx';
 
-export const UserContext = createContext<any>(null)
 
 const App:React.FC = () => {
-  const [value,setValue] = useState(0)
-  const incremenetCount = () => {
-    setValue((prev)=>{return prev+1})
-  }
+  const [ value,setValue ] = useState(0)
   return (
     <div className="App">
-      <ButtonReducer crement={incremenetCount}/>  
-      <FormValidator/>
-      <UserContext.Provider value={{value,setValue}}>
-        <UContextPrac/>
-      </UserContext.Provider>
+      {/* <ButtonReducer crement={incremenetCount}/>   */}
+      {/* <FormValidator/> */}
+      <h4>{value} Main Context</h4>
+      <CountContext.Provider value={ {value,setValue} }>
+        <Uctx/>
+      </CountContext.Provider>
     </div>
   );
 
