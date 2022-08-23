@@ -21,8 +21,8 @@ These are little or sometimes big'ish Projects and Games I made to practice diff
 [016 Game - Tic Tac Toe in Python](https://github.com/mmvergara/lilProjects#016-game---tic-tac-toe-in-python)<br />
 [017 Project - GWA Calculator](https://github.com/mmvergara/lilProjects#017-project---gwa-calculator) <br />
 [018 Project - React Namelister](https://github.com/mmvergara/lilProjects#018-project---react-namelister) <br />
-
-
+[019 Project - React Hook Practice]()
+[020 Project - Aldrian Stencil Art]()
 
 ## 020 Project - Aldrian Stencil Art
 - Made for my friend for free
