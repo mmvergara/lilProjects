@@ -29,6 +29,7 @@ These are little or sometimes big'ish Projects and Games I made to practice diff
 ## 017 Project - Gwa Calculator
 - Exactly as it sounds
 - React Typescript Practice
+- live in https://gwa-calculator-mmv.netlify.app/
 
 ## 016 Game - Tic Tac Toe in Python
 - First Game i made in python, OOP practice

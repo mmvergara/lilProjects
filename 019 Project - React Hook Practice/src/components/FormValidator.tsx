@@ -1,5 +1,4 @@
-import {useReducer,useEffect,useState} from 'react'
-
+import {useReducer,useEffect,useState,useRef} from 'react'
 interface actionsVal{
   val:string,
   type:string,
@@ -36,7 +35,11 @@ const TestEmailRed:React.FC = () => {
       setSubmittable(formState.mailIsValid && formState.passIsValid)
       console.log('useeffect triger')
     },[formState.mailIsValid,formState.passIsValid])
+    const emailInputRef = useRef<HTMLInputElement>(null!)
 
+    useEffect(()=>{
+      emailInputRef.current?.focus()
+    },[])
 
     return (
       <div>
@@ -44,7 +47,7 @@ const TestEmailRed:React.FC = () => {
         <div className={` ${formState.passIsValid ? 'text-green-200': 'text-red-600'} `}>PassWord is Valid? {formState.passIsValid ? 'valid':'nope'}</div>
         <div className={` ${submittable ? 'text-green-200': 'text-red-600'} `}>Form is submittable? {submittable ? 'valid' : 'nope'}</div>
 
-        <input type="text" placeholder='email' onChange={
+        <input type="text" ref={emailInputRef} placeholder='email' onChange={
           (e:React.ChangeEvent<HTMLInputElement>)=>{dispatchFormState({type:'email_change',val:e.target.value})}
           }/> <br />
         <input type="password" placeholder='password' onChange={
