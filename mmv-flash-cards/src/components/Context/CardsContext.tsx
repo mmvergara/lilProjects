@@ -21,7 +21,6 @@ const CardsProvider: React.FC<childrenOnly> = (props: childrenOnly) => {
   }, [cardsState]);
 
   const addCard = (Data: cardContext) => {
-    console.log("addingcard  " + Data);
     setCardsState((prev: cardContext[]) => {
       return [...prev, Data];
     });
@@ -70,7 +69,7 @@ const CardsProvider: React.FC<childrenOnly> = (props: childrenOnly) => {
       });
     });
   };
-  function shuffle(array:any[]) {
+  function shuffle(array: any[]) {
     let currentIndex = array.length,
       randomIndex;
     while (currentIndex !== 0) {
@@ -84,9 +83,7 @@ const CardsProvider: React.FC<childrenOnly> = (props: childrenOnly) => {
     return array;
   }
   const shuffleHandler = () => {
-    setCardsState((prev:cardContext[])=>[...shuffle(prev)])
-    console.log('yyo')
-    console.log(cardsState)
+    setCardsState((prev: cardContext[]) => [...shuffle(prev)]);
   };
   const cardsDataValues: appDatas = {
     cards: cardsState,
