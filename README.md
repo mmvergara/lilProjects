@@ -26,6 +26,8 @@ These are little or sometimes big'ish Projects and Games I made to practice diff
 [021 Project - MMV Flash Cards]
 
 ## 021 Project - MMV Flash Cards
+- Local Storage, React Hooks Harmony Practice
+- Fun frustrating projects, I learned a lot.
 ## 020 Project - Aldrian Stencil Art
 - Made for my friend for free
 - Source code is private.
