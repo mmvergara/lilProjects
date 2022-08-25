@@ -18,7 +18,11 @@ const EachRemCards: React.FC<cardContext> = ({
     x?.removeCard(id);
   };
   return (
-    <tr key={id} style={{animationDelay: `${index!/10 || 0}s`}} className="tdresponsiveMain">
+    <tr
+      key={id}
+      style={{ animationDelay: `${index! / 10 || 0}s` }}
+      className="tdresponsiveMain"
+    >
       <td className="tdresponsive">{subject}</td>
       <td className="tdresponsive2">
         <Button variant="danger" onClick={removeClickHandler}>

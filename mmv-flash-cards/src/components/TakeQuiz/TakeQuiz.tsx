@@ -8,7 +8,9 @@ import { useContext } from "react";
 import { cardsDatasContext } from "../Context/CardsContext";
 import { cardContext } from "../Context/AppInterfaces";
 
-const TakeQuiz: React.FC<{btnChoose:Function}> = (props:{btnChoose:Function}) => {
+const TakeQuiz: React.FC<{ btnChoose: Function }> = (props: {
+  btnChoose: Function;
+}) => {
   const datas = useContext(cardsDatasContext);
 
   return (
@@ -42,7 +44,12 @@ const TakeQuiz: React.FC<{btnChoose:Function}> = (props:{btnChoose:Function}) =>
       </div>
 
       {datas?.cards.length === 0 ? (
-        <div className="cardsMainContainer mt-4" onClick={()=>{props.btnChoose()}}>
+        <div
+          className="cardsMainContainer mt-4"
+          onClick={() => {
+            props.btnChoose();
+          }}
+        >
           <h1>Add some cards lol</h1>
         </div>
       ) : (

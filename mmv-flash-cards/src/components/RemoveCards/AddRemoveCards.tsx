@@ -34,7 +34,7 @@ const AddRemoveCards: React.FC<{ onAdd: Function }> = (props: {
                 </Button>
               </td>
             </tr>
-            {x?.cards.map((x: cardContext,index) => {
+            {x?.cards.map((x: cardContext, index) => {
               return (
                 <EachRemCards
                   definition={x.definition}
