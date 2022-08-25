@@ -6,6 +6,7 @@ import { useState } from "react";
 import AddRemoveCards from "./components/RemoveCards/AddRemoveCards";
 import Modal from "./components/Modal/Modal";
 import "bootstrap/dist/css/bootstrap.min.css";
+import Footer from "./components/Footer/Footer";
 
 
 const App: React.FC = () => {
@@ -25,7 +26,9 @@ const App: React.FC = () => {
           <NavBar btnChoose={navClickHandler} />
           {navState && <TakeQuiz  btnChoose={navClickHandler} />}
           {!navState && <AddRemoveCards onAdd={addClickHandler} />}
+          <Footer/>
         </>
+        
       </CardsProvider>
   )
 };
