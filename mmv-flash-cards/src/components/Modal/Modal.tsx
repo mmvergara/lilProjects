@@ -20,7 +20,6 @@ const Modal: React.FC<{ onAdd: Function }> = (props: { onAdd: Function }) => {
       id: uniqid(),
       frontfirst:true,
     };
-    console.log(data);
     ctx?.addCard(data);
     props.onAdd(false);
   };
