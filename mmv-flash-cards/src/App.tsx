@@ -8,7 +8,6 @@ import Modal from "./components/Modal/Modal";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Footer from "./components/Footer/Footer";
 
-
 const App: React.FC = () => {
   const [navState, setNavState] = useState(true);
   const [showModal, setShowModal] = useState(false);
@@ -20,17 +19,16 @@ const App: React.FC = () => {
   };
 
   return (
-      <CardsProvider>
-        <>
-          {showModal && <Modal onAdd={addClickHandler} />}
-          <NavBar btnChoose={navClickHandler} />
-          {navState && <TakeQuiz  btnChoose={navClickHandler} />}
-          {!navState && <AddRemoveCards onAdd={addClickHandler} />}
-          <Footer/>
-        </>
-        
-      </CardsProvider>
-  )
+    <CardsProvider>
+      <>
+        {showModal && <Modal onAdd={addClickHandler} />}
+        <NavBar btnChoose={navClickHandler} />
+        {navState && <TakeQuiz btnChoose={navClickHandler} />}
+        {!navState && <AddRemoveCards onAdd={addClickHandler} />}
+        <Footer />
+      </>
+    </CardsProvider>
+  );
 };
 
 export default App;
