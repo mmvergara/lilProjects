@@ -1,0 +1,12 @@
+.footingHeight {
+  height: 800px;
+}
+.footerMain {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  padding: 1em;
+  background-color: hsl(210, 11%, 12%);
+}
