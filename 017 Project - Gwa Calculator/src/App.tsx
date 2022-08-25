@@ -1,10 +1,10 @@
-import './App.css';
-import GwaCalc from './components/GwaCalc';
+import "./App.css";
+import GwaCalc from "./components/GwaCalc";
 
 function App() {
   return (
     <div className="App">
-      <GwaCalc/>
+      <GwaCalc />
     </div>
   );
 }
