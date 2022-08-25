@@ -10,7 +10,6 @@ const EachRemCards: React.FC<cardContext> = ({
   subject,
 }: cardContext) => {
   const x = useContext(cardsDatasContext);
-
   const removeClickHandler = (
     e: React.MouseEvent<HTMLButtonElement, MouseEvent>
   ) => {
