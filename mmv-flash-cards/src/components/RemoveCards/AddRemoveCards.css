@@ -1,0 +1,28 @@
+.tdresponsive{
+  min-width: 160px;max-width: 160px;
+  overflow-x: hidden;
+  word-wrap: break-word;
+}
+.tdresponsive{
+  width: fit-content;
+}
+.tdresponsiveMain{
+  opacity: 0;
+  animation: aniTrans;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+  animation-delay: attr("data-count");
+  content: attr(data-count);
+}
+
+
+
+
+@keyframes aniTrans {
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}

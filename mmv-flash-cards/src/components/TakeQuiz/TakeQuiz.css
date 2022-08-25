@@ -1,0 +1,73 @@
+.configArea {
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.cardContainer {
+  color:white;
+  background-color: hsl(207,12%,24%);
+  cursor: pointer;
+  width: fit-content;
+  min-width: 300px;
+  min-height: 300px;
+  padding:1em;
+  border-radius: 4px;
+  border: 4px solid #0fbec1 ;
+}
+
+.cardsMainContainer{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-direction: column;
+  gap:1em;  
+  opacity: 0;
+  animation: begone;
+  animation-fill-mode:forwards;
+  animation-duration: 0.6s;
+}
+.cardsMainContainer h1 {
+  cursor: pointer;
+  color:white;
+}
+
+.begoneAnimate{
+  animation: begone;
+  animation-fill-mode:forwards;
+  animation-duration: 0.4s;
+}
+
+@keyframes begone {
+  0%{
+    transform: translateX(-50%);
+    opacity:0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+
+.begoneAnimate2{
+  animation: begone2;
+  animation-fill-mode:forwards;
+  animation-duration: 0.4s;
+}
+
+@keyframes begone2 {
+  0%{
+    transform: rotateY(120deg);
+    opacity:0;
+  }
+  100%{
+    background-image: linear-gradient(to bottom,rgb(4, 88, 88),hsl(207,12%,14%)) ;
+  }
+}
+
+.cardContainer div {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-weight: bold;
+}

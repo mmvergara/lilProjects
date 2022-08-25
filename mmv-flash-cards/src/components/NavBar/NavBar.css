@@ -1,0 +1,16 @@
+.nav-container {
+  display:flex;
+  justify-content:space-around;
+  align-items:center;
+  background-image: linear-gradient(to top ,hsl(180, 100%, 30%),hsl(190, 100%, 35%));
+  color:white;
+  padding:15px 10px;
+  font-weight:bold;
+  font-size:1.3rem;
+  text-align:center;
+}
+
+.nav-container div:hover {
+  cursor:pointer;
+  text-decoration:overline;
+}
