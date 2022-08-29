@@ -50,7 +50,7 @@ const GwaCalc: React.FC = () => {
   return (
     <div className="PsauGwaCalcContainer">
       <p className="text-red-500 p-1 rounded-lg bg-white">
-        Disclaimer:Use at your own risk calculations may be inaccurate.
+        Disclaimer:Use at your own risk, calculations may be inaccurate.
         <br /> This website is not associated in any way with any school, its
         just basically a calculator
       </p>

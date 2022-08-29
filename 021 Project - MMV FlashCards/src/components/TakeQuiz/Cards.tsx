@@ -2,14 +2,14 @@ import "./TakeQuiz.css";
 import { useContext } from "react";
 import { cardContext } from "../Context/AppInterfaces";
 import { cardsDatasContext } from "../Context/CardsContext";
-
+import React from 'react'
 const Cards: React.FC<cardContext> = ({
   id,
   subject,
   definition,
-  index,
   frontfirst,
 }: cardContext) => {
+  console.log('cards re render')
   const ctx = useContext(cardsDatasContext)
   return (
     <div
@@ -27,4 +27,4 @@ const Cards: React.FC<cardContext> = ({
   );
 };
 
-export default Cards;
+export default React.memo(Cards);

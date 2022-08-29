@@ -4,14 +4,36 @@ import DropdownButton from "react-bootstrap/DropdownButton";
 import Dropdown from "react-bootstrap/Dropdown";
 import Cards from "./Cards";
 import "./TakeQuiz.css";
-import { useContext } from "react";
+import { useContext, useMemo } from "react";
 import { cardsDatasContext } from "../Context/CardsContext";
 import { cardContext } from "../Context/AppInterfaces";
 
 const TakeQuiz: React.FC<{ btnChoose: Function }> = (props: {
   btnChoose: Function;
 }) => {
-  const datas = useContext(cardsDatasContext);
+  console.log('take quiz re render')
+  const datas = useContext(cardsDatasContext)!;
+  const {cards} = datas
+  const cardsListahanMemoize = useMemo(() => {
+    return cards.map((x: cardContext, index: number) => {
+      return (
+        <div
+          style={{ animationDelay: `${index / 10}s` }}
+          className="cardsMainContainer mt-4"
+          key={x.id}
+        >
+          <Cards
+            definition={x.definition}
+            subject={x.subject}
+            key={x.id}
+            index={index}
+            id={x.id}
+            frontfirst={x.frontfirst}
+          />
+        </div>
+      );
+    });
+  }, [cards]);
 
   return (
     <>
@@ -51,26 +73,9 @@ const TakeQuiz: React.FC<{ btnChoose: Function }> = (props: {
           }}
         >
           <h1>Add some cards lol</h1>
-        </div>
+        </div>;
       ) : (
-        datas!.cards.map((x: cardContext, index: number) => {
-          return (
-            <div
-              style={{ animationDelay: `${index / 10}s` }}
-              className="cardsMainContainer mt-4"
-              key={x.id}
-            >
-              <Cards
-                definition={x.definition}
-                subject={x.subject}
-                key={x.id}
-                index={index}
-                id={x.id}
-                frontfirst={x.frontfirst}
-              />
-            </div>
-          );
-        })
+        cardsListahanMemoize
       )}
     </>
   );
