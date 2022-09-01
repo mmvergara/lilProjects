@@ -8,18 +8,16 @@ import { useContext, useMemo } from "react";
 import { cardsDatasContext } from "../Context/CardsContext";
 import { cardContext } from "../Context/AppInterfaces";
 
-const TakeQuiz: React.FC<{ btnChoose: Function }> = (props: {
-  btnChoose: Function;
-}) => {
-  console.log('take quiz re render')
+const TakeQuiz: React.FC<{ btnChoose: Function }> = (props: { btnChoose: Function }) => {
+  console.log("take quiz re render");
   const datas = useContext(cardsDatasContext)!;
-  const {cards} = datas
+  const { cards } = datas;
   const cardsListahanMemoize = useMemo(() => {
     return cards.map((x: cardContext, index: number) => {
       return (
         <div
           style={{ animationDelay: `${index / 10}s` }}
-          className="cardsMainContainer mt-4"
+          className='cardsMainContainer mt-4'
           key={x.id}
         >
           <Cards
@@ -38,10 +36,10 @@ const TakeQuiz: React.FC<{ btnChoose: Function }> = (props: {
   return (
     <>
       <div>TakeQuiz</div>
-      <div className="configArea">
-        <ButtonGroup aria-label="Basic example">
+      <div className='configArea'>
+        <ButtonGroup aria-label='Basic example'>
           <Button
-            variant="danger"
+            variant='danger'
             onClick={() => {
               datas?.shuffler();
             }}
@@ -50,30 +48,28 @@ const TakeQuiz: React.FC<{ btnChoose: Function }> = (props: {
           </Button>
           <DropdownButton
             as={ButtonGroup}
-            title="Orientation"
-            id="bg-nested-dropdown"
+            title='Orientation'
+            id='bg-nested-dropdown'
             onSelect={(e: string | null) => {
               datas?.orientationChange(e);
             }}
           >
-            <Dropdown.Item eventKey="subf">Subject First (Heads)</Dropdown.Item>
-            <Dropdown.Item eventKey="deff">
-              Definition First (Tails)
-            </Dropdown.Item>
-            <Dropdown.Item eventKey="rand">Random</Dropdown.Item>
+            <Dropdown.Item eventKey='subf'>Subject First (Heads)</Dropdown.Item>
+            <Dropdown.Item eventKey='deff'>Definition First (Tails)</Dropdown.Item>
+            <Dropdown.Item eventKey='rand'>Random</Dropdown.Item>
           </DropdownButton>
         </ButtonGroup>
       </div>
 
       {datas?.cards.length === 0 ? (
         <div
-          className="cardsMainContainer mt-4"
+          className='cardsMainContainer mt-4'
           onClick={() => {
             props.btnChoose();
           }}
         >
           <h1>Add some cards lol</h1>
-        </div>;
+        </div>
       ) : (
         cardsListahanMemoize
       )}
