@@ -24,9 +24,9 @@ These are little or sometimes big'ish Projects and Games I made to practice diff
 [019 Project - React Hook Practice](https://github.com/mmvergara/lilProjects#019-project---react-hook-practice) <br />
 [020 Project - Aldrian Stencil Art](https://github.com/mmvergara/lilProjects#020-project---aldrian-stencil-art) <br />
 [021 Project - MMV Flash Cards](https://github.com/mmvergara/lilProjects#021-project---mmv-flash-cards) <br />
-[022 Project - Anime Tracer](https://github.com/mmvergara/lilProjects#022-project---anime-tracer)
-[023 Project - ID Flash Cards](https://github.com/mmvergara/lilProjects#023-project---id-flash-cards)
-[024 Project - Binary Shifting](https://github.com/mmvergara/lilProjects#024-project---binary-shifting)
+[022 Project - Anime Tracer](https://github.com/mmvergara/lilProjects#022-project---anime-tracer)<br />
+[023 Project - ID Flash Cards](https://github.com/mmvergara/lilProjects#023-project---id-flash-cards)<br />
+[024 Project - Binary Shifting](https://github.com/mmvergara/lilProjects#024-project---binary-shifting)<br />
 
 
 ## 024 Project - Binary Shifting
