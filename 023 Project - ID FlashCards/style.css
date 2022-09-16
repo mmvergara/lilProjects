@@ -1,0 +1,281 @@
+:root {
+  /* --blue-bg: hsl(179, 43%, 48%); */
+  --blue-bg: hsl(28, 89%, 35%);
+  --coffee-bg: hsl(26, 100%, 94%);
+}
+
+body {
+  background-color: var(--coffee-bg);
+  margin: 0px;
+  padding: 0px;
+
+  overflow-x: hidden;
+}
+
+Footer {
+  text-align: center;
+  padding: 1em;
+  margin-top: 95vh;
+  background-color: var(--blue-bg);
+  color: aliceblue;
+  min-width: 100vw;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style-type: none;
+  background-color: var(--blue-bg);
+  font-size: 2em;
+  padding: 0.5em;
+  text-align: center;
+}
+nav ul a {
+  text-decoration: none;
+  color: aliceblue;
+  text-align: center;
+}
+
+nav ul a:hover {
+  text-decoration: overline;
+  color: aliceblue;
+}
+.indexBody {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.card-id-form-container {
+  background-color: hsla(28, 89%, 35%, 0.985);
+  min-width: 330px;
+  color: white;
+  padding: 3em;
+  border-radius: 30px;
+}
+
+.submit-button {
+  margin-top: 1rem;
+  color: var(--blue-bg);
+  font-weight: bold;
+}
+
+.submit-button:hover {
+  color: var(--blue-bg);
+  font-weight: bold;
+  transform: scale(110%);
+  transition: 0.3s;
+}
+
+.header1-container {
+  display: inline-block;
+  background-image: linear-gradient(
+    to bottom right,
+    hsla(34, 61%, 72%, 0.724),
+    hsla(166, 37%, 72%, 0.516)
+  );
+  padding: 1em;
+  margin: 1em 0em;
+  margin-top: 5em;
+  border-radius: 30px;
+}
+.header1 {
+  color: var(--blue-bg);
+  font-size: 7rem;
+}
+
+#IDHeader {
+  display: inline-block;
+  opacity: 0;
+  animation-name: slideFromLeft;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+@keyframes slideFromLeft {
+  0% {
+    opacity: 0;
+    transform: rotateY(-300deg);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate();
+  }
+}
+
+@media only screen and (max-width: 766px) {
+  .header1 {
+    font-size: 4rem;
+  }
+}
+@media only screen and (max-width: 516px) {
+  .header1 {
+    font-size: 3rem;
+  }
+}
+
+@media only screen and (max-width: 487px) {
+  nav ul {
+    font-size: 1.2em;
+  }
+}
+
+@media only screen and (max-width: 333px) {
+  .header1 {
+    font-size: 2rem;
+  }
+}
+
+.table-container {
+  background-color: hsla(34, 61%, 72%, 0.955);
+  border-radius: 10px;
+  padding: 20px;
+  border-color: black;
+}
+
+tr td {
+  font-size: 1.2rem;
+}
+tr {
+  max-height: 10px;
+  overflow-y: hidden;
+}
+table.table {
+  border: 1px solid rgba(115, 73, 0, 0.615);
+}
+
+.delete-button {
+  color: var(--blue-bg);
+  font-weight: bold;
+}
+
+.delete-button:hover {
+  color: var(--blue-bg);
+  font-weight: bold;
+  transform: scale(110%);
+  transition: 0.3s;
+}
+
+.form-container {
+  background-color: hsla(34, 61%, 82%, 0.957);
+  padding: 1em;
+  border-radius: 10px;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+/* container */
+.main-big-container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 5em;
+  gap: 5em;
+}
+
+.flipCard {
+  background-color: transparent;
+  width: 300px;
+  perspective: 1000px;
+}
+
+.flipCard--inner {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  text-align: center;
+  transition: transform 0.4s;
+  transform-style: preserve-3d;
+  cursor: pointer;
+}
+
+.rotateToBack {
+  transform: rotateX(180deg);
+}
+
+.flipCard--front,
+.flipCard--back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+.flipCard--front {
+  color: black;
+}
+
+/* Style the back side */
+.flipCard--back {
+  color: white;
+  transform: rotateX(180deg);
+}
+
+.para {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  filter: drop-shadow(1px 1px 3px black);
+  color: hsl(25, 77%, 17%);
+  border-color: hsl(25, 77%, 37%);
+  border-width: 3px;
+  border-style: solid;
+  background-color: white;
+  padding: 1em;
+  border-radius: 10px;
+  font-size: 1.2rem;
+}
+
+.form-container,
+.table-container,
+.card-id-form-container {
+  animation-name: fadeTop;
+  animation-duration: 0.8s;
+}
+
+@keyframes fadeTop {
+  0% {
+    transform: translateY(100px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateX();
+    opacity: 1;
+  }
+}
+
+.para {
+  opacity: 0;
+  animation-duration: 0.8s;
+  animation-fill-mode: forwards;
+}
+@keyframes fadeRight {
+  0% {
+    transform: translate(400px,100px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translate(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fadeLeft {
+  0% {
+    transform: translate(-400px,100px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translate(0);
+    opacity: 1;
+  }
+}

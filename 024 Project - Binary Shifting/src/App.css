@@ -1,0 +1,72 @@
+.inputForm{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.inputForm input {
+  max-width: 500px;
+}
+
+.App {
+  text-align: center;
+}
+
+.author {
+  text-align: left;
+  padding-left: 10px;
+  font-weight: bold;
+}
+
+.arithmeticShiftContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.tdBorder{
+  min-width: 50px;
+  max-width: 50px;
+  border: 2px solid rgba(0, 0, 0, 0.477);
+  font-weight: bold;
+}
+.leftArrow svg{
+  transform: rotateX();
+  overflow: hidden;
+  padding: 0;
+  min-height: 36px;
+  font-size: 3em;
+}
+.leftArrowContainer {
+  transform: translateX(-17px);
+}
+.leftArrowContainerX {
+  transform: translateX(17px);
+}
+.leftArrowContainerWX {
+  transform: translateX(-25px);
+
+}
+.leftArrowContainerW {
+  transform: translateX(-87px);
+}
+.shiftedToLeftX{
+  transform: translateX(0px);
+}
+
+.shiftedToLeft {
+  transform: translateX(-25px);
+}
+.shiftedToLeftw{
+  transform: translateX(-52px);
+}
+.shiftedToLeftwX{
+  transform: translateX(0px);
+
+}
+.divider {
+  width: 100%;
+  margin:1em 0em;
+  border-top: 3px solid rgba(0, 0, 0, 0.452);
+}

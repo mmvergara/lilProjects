@@ -25,7 +25,16 @@ These are little or sometimes big'ish Projects and Games I made to practice diff
 [020 Project - Aldrian Stencil Art](https://github.com/mmvergara/lilProjects#020-project---aldrian-stencil-art) <br />
 [021 Project - MMV Flash Cards](https://github.com/mmvergara/lilProjects#021-project---mmv-flash-cards) <br />
 [022 Project - Anime Tracer](https://github.com/mmvergara/lilProjects#022-project---anime-tracer)
+[023 Project - ID Flash Cards]()
+[024 Project - Binary Shifting]()
 
+
+## 024 Project - Binary Shifting
+- React app, Logical And Arithmetic Shifting
+- https://binaryshifting.netlify.app/
+
+## 023 Project - ID Flash Cards
+- PHP, Mysql Practice
 ## 022 Project - Anime Tracer
 - uses Trace Moe API to search for the anime
 - React Practice on HTTP Requests

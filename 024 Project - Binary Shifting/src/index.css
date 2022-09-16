@@ -1,0 +1,20 @@
+.navBar{
+  background-color: black;
+  padding: 1em;
+  display: flex;
+  justify-content:  space-around;
+  align-items:center;
+}
+
+.navBar div {
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+}
+.navBar div:hover{
+  text-decoration: underline;
+}
+
+.paddingBottom {
+  height: 500px;
+}
