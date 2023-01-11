@@ -30,7 +30,7 @@ These are little or sometimes big'ish Projects and Games I made to practice diff
 
 
 ## 024 Project - Binary Shifting
-- React app, Logical And Arithmetic Shifting
+- React app, Logical And Arithmetic Shifting Project made in school
 - https://binaryshifting.netlify.app/
 
 ## 023 Project - ID Flash Cards
